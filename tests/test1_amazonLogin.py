@@ -6,8 +6,8 @@
     
 #     loginPageFunctions.launchAmazonPage()
 #     loginPageFunctions.hoverOnAccount()
-#     loginPageFunctions.clickOnSignInbtn()
-#     loginPageFunctions.enterEmailId('simran@gmail.com')
+#     loginPageFunctions.clickOnSignInBtn()
+#     loginPageFunctions.enterEmailID('simran@gmail.com')
 #     loginPageFunctions.clickOnContinueBtn()
 #     loginPageFunctions.enterPassword('Weltest')
 #     loginPageFunctions.clickOnContinueBtn()
@@ -15,9 +15,9 @@
 # def test_invalidLogin(page: Page):
 #     loginPageFunctions = LoginPage(page)   
 #     loginPageFunctions.launchAmazonPage()
-#     loginPageFunctions.hoverOnAccount()
-#     loginPageFunctions.clickOnSignInbtn()
-#     loginPageFunctions.enterEmailId('simran@gmail.com')
+#     loginPageFunctions.hoverOnAccountsBtn()
+#     loginPageFunctions.clickOnSignInBtn()
+#     loginPageFunctions.enterEmailID('simran@gmail.com')
 #     loginPageFunctions.clickOnContinueBtn()
 #     loginPageFunctions.enterPassword('test14')
 #     loginPageFunctions.clickOnContinueBtn()

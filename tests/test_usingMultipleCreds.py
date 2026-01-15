@@ -16,12 +16,12 @@ testData = readJsonData(credentials)
                         )
 def test_loginUsingValidCreds(page: Page, home_page, login_page,username,password):
     home_page.launchTheAmazonBrowser()
-    home_page.hoverOnAccount()
-    home_page.clickOnSignInbtn()
+    home_page.hoverOnAccountsBtn()
+    home_page.clickOnSignInBtn()
 
 
 
-    login_page.enterEmailId(username)
+    login_page.enterEmailID(username)
     login_page.clickOnContinueBtn()
     login_page.enterPassword(password)
     login_page.clickOnContinueBtn()

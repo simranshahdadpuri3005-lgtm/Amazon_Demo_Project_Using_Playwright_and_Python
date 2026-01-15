@@ -5,15 +5,15 @@
 #     searchbar= page.locator("input#twotabsearchtextbox")
 #     expect(searchbar).to_be_visible()
 
-# def hoverOnAccount(page: Page):
+# def hoverOnAccountsBtn(page: Page):
 #     account = page.locator("//a[@data-nav-ref='nav_ya_signin']")
 #     account.hover()
 
-# def clickOnSignInbtn(page: Page):
-#     signInbtn = page.locator("#nav-flyout-ya-signin")
-#     signInbtn.click()
+# def clickOnSignInBtn(page: Page):
+#     signInBtn = page.locator("#nav-flyout-ya-signin")
+#     signInBtn.click()
 
-# def enterEmailId(page: Page, id):
+# def enterEmailID(page: Page, id):
 #     emailId = page.locator("#ap_email_login")
 #     emailId.fill(id)
 
@@ -27,18 +27,18 @@
 
 # def test_validLogin(page: Page):
 #     launchAmazonPage(page)
-#     hoverOnAccount(page)
-#     clickOnSignInbtn(page)
-#     enterEmailId(page, 'simran@gmail.com')
+#     hoverOnAccountsBtn(page)
+#     clickOnSignInBtn(page)
+#     enterEmailID(page, 'simran@gmail.com')
 #     clickOnContinueBtn(page)
 #     enterPassword(page, test14)')
 #     clickOnContinueBtn(page)
 
 # def test_invalidLogin(page: Page):
 #     launchAmazonPage(page)
-#     hoverOnAccount(page)
-#     clickOnSignInbtn(page)
-#     enterEmailId(page, 'simran@gmail.com')
+#     hoverOnAccountsBtn(page)
+#     clickOnSignInBtn(page)
+#     enterEmailID(page, 'simran@gmail.com')
 #     clickOnContinueBtn(page)
 #     enterPassword(page, 'Welcome@')
 #     clickOnContinueBtn(page)
