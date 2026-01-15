@@ -40,7 +40,8 @@
 #     clickOnSignInBtn(page)
 #     enterEmailID(page, 'simran@gmail.com')
 #     clickOnContinueBtn(page)
-#     enterPassword(page, 'Welcome@')
+#     enterPassword(page, 'test@')
+
 #     clickOnContinueBtn(page)
     
 
