@@ -7,7 +7,7 @@
 #         self.page = page
 #         self.searchbar= page.locator("input#twotabsearchtextbox")
 #         self.account = page.locator("//a[@data-nav-ref='nav_ya_signin']")
-#         self.signInbtn = page.locator("#nav-flyout-ya-signin")
+#         self.signInBtn = page.locator("#nav-flyout-ya-signin")
 #         self.emailId = page.locator("#ap_email_login")
 #         self.continueBtn = page.locator(".a-button-input")
 #         self.enterPwdValue = page.locator("#ap-password")
@@ -17,13 +17,13 @@
 #         self.page.goto("https://www.amazon.in/")
 #         expect(self.searchbar).to_be_visible()
 
-#     def hoverOnAccount(self):
+#     def hoverOnAccountsBtn(self):
 #         self.account.hover()
 
-#     def clickOnSignInbtn(self):
-#         self.signInbtn.click()
+#     def clickOnSignInBtn(self):
+#         self.signInBtn.click()
 
-#     def enterEmailId(self, id):
+#     def enterEmailID(self, id):
 #         self.emailId.fill(id)
 
 #     def clickOnContinueBtn(self):

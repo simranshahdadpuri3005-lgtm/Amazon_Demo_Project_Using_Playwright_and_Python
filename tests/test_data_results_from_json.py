@@ -19,3 +19,5 @@ def test_dataFromFile():
           
           #data in json can be easily read by loading it using json.load() method
     print("all the data of json is ", data)
+
+

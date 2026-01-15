@@ -1,4 +1,3 @@
-import nt
 import os
 from dotenv import load_dotenv
 #load_dotenv()  reads the .env file and loads the environment variables
@@ -27,11 +26,20 @@ def test_getDataFromCommanLine():
 #another way to get data from command line using dotenv module
 
 def test_getDataFromEnvFile():
-    load_dotenv(".env")   #loading the .env file
+    env_var = os.getenv("env")  #getting the env file name from command line
+   # env_var = os.getenv("env", "QAEnv")  #here QAEnv is default value if no value is passed from command line
+   
+    load_dotenv(f".env.{env_var}")   #loading the .env file
     userName = os.getenv("Amazon_username") #varaible name should be same as passed in the env file
     password = os.getenv("Amazon_password")
     print("username passed from env file is ", userName)
     print("password passed from env file is ", password)
    
 
+# you can call the above using the command
+
+# $env:userName="simran@test.com"; 
+# $env:password="MySecretPassword";
+# $env:env="dev"; `
+# pytest -s
 
