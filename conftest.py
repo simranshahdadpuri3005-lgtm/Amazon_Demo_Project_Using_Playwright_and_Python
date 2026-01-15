@@ -56,9 +56,9 @@ def logInUsingvalidcreds(page, home_page, login_page):
     home_page.launchTheAmazonBrowser()
     #home_page.hoverOnAccountsBtn()
     home_page.clickOnSignInBtn()
-    login_page.enterEmailID("trainingplaywright@gmail.com")
+    login_page.enterEmailID("simran@gmail.com")
     login_page.clickOnContinueBtn()
-    login_page.enterPassword("Welcome@04")
+    login_page.enterPassword("test@04")
     login_page.clickOnContinueBtn()
     yield
    # print("Log out code can be added here")
