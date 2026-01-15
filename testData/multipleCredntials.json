@@ -1,15 +1,14 @@
 {
     "validCredentials_QA": {
-        "username": "trainingplaywright@gmail.com",
-        "password": "Welcome@04"
+        "username": "simranqa@gmail.com",
+        "password": "test@04"
     },
     "validCredentials_Dev": {
-        "username": "trainingplaywright@gmail.com",
-        "password": "Welcome@04"
+        "username": "simrandev@gmail.com",
+        "password": "test@04"
     },
     "InvalidCredentials": {
-        "username": "training@gmail.com",
-        "password": "Welc@04"
-    }
+        "username": "simranin@gmail.com",
+        "password": "test@08"
 }
 
